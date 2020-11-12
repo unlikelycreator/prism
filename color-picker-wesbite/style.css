@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+*{
+    padding: 5px;  
+}
+span {
+  font-weight: normal;
+  font-family: monospace;
+}
+.col{
+  height: auto;
+  display: flex;
+}
+.row{
+  height: 100%;
+}
+h1 {
+  display: block;
+  text-align: center;
+  padding-left: 42%;
+}
+span {
+    background: white;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: monospace;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 2rem;
+    background: -webkit-linear-gradient(rgb(196, 7, 7), rgb(216, 9, 243));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a{
+    font-weight: bold;
+}
+.dropdown-item{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 900px) {
+    
+    
+  }
